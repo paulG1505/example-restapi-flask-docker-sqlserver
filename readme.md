@@ -18,10 +18,3 @@ mcr.microsoft.com/mssql/server:latest → Imagen oficial de SQL Server.
 # Ejecuta la base de datos
 docker exec -it sqlserver /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 1234
 
-# dependencia la base de datos
-pip install flask flask-sqlalchemy pyodbc
-# example-restapi-flask-docker-sqlserver
-# example-restapi-flask-docker-sqlserver
-# example-restapi-flask-docker-sqlserver
-# example-restapi-flask-docker-sqlserver
-# example-restapi-flask-docker-sqlserver
